@@ -1,5 +1,5 @@
 {
-    "name": "Voten API",
+    "name": "voten-api",
     "version": "0.0.1",
     "description": "The public API used for communication between voten's backend and frontend applications.",
     "main": "index.js",
@@ -7,8 +7,8 @@
     "author": "Sully Fischer",
     "license": "Apache 2.0",
     "dependencies": {
-      "vuepress": "^0.10.2"
-    }, 
+        "vuepress": "^0.10.2"
+    },
     "scripts": {
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs"
